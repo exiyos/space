@@ -14,7 +14,7 @@ var scoren = 0;
 var top;
 var tries = 1.5;
 var coll1;
-var theme = new Audio("/theme.mp3");
+var theme = new Audio("../theme.mp3");
 theme.preload = 'auto';
 
 
@@ -211,7 +211,7 @@ function move(enemy){
     if(lmao < 0 && !enemy.classList.contains("dead")){
       tries= tries - 0.5;
       console.log(tries);
-      new Audio("/hit.wav").play()
+      new Audio("../hit.wav").play()
     }
     if(lmao <0){
       clearInterval(check);
