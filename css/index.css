@@ -69,7 +69,7 @@ button{
   width: 80px;
   height: 70px;
   border-radius: 0px;
-  background-image: url("/button.png");
+  background-image: url("../button.png");
   background-size:80px 70px;
   background-repeat: no-repeat;
   outline:none;
