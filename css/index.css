@@ -46,7 +46,7 @@ position: absolute;
 left:10px;
 top:125px;
 transition: 0.07s;
-background-image: url("../ship.png");
+background-image: url("./ship.png");
 background-size:25px 25px;
 background-repeat: no-repeat;
 
@@ -69,7 +69,7 @@ button{
   width: 80px;
   height: 70px;
   border-radius: 0px;
-  background-image: url("../button.png");
+  background-image: url("./button.png");
   background-size:80px 70px;
   background-repeat: no-repeat;
   outline:none;
@@ -160,7 +160,7 @@ width:80px;
 }
 
 #bt2{
-background-image: url("../move.png");
+background-image: url("./move.png");
   background-size:80px 70px;
 }
 #bt{
