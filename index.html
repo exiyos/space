@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <title>Space Shooter</title>
+</head>
+<body>
+<a href="https://www.paypal.com/paypalme/adilZoldyck"><img src="http://pngimg.com/uploads/paypal/paypal_PNG7.png" id="pp"></a>
+  <div class="scoresave">
+  <h10>Score:</h10><h11 id="score"></h11>
+  </div>
+	<div id="scene" >
+	  <div class="credit"><h20>Made By:<a target="_blank" href="https://www.facebook.com/adil.zoldyck.9">Adil Žoldyck</a></h20></div>
+	  <h90 id="play" onclick="start()">Click Here To Start</h90>
+	  <div class="back" ></div>
+	  <div id="cont" class="cont">
+	  <div id="lives"><img src="heart.png" id="live1">
+	  <img src="heart.png" id="live2">
+	  <img src="heart.png" id="live3"></div>
+	  
+	  <div id="p1"></div>
+	  <div id="p2"></div>
+	</div>
+	</div>
+	<div class="button">
+	  <div class="move">
+	<div id="bt2"></div>
+	
+	<div id="bt"></div>
+	</div>
+	<div class="sht">
+	<button id="be" ontouchstart="throttle(10)"></button>
+	</div>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
