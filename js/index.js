@@ -305,7 +305,7 @@ cont.style.display = "block"
 document.addEventListener("keydown",pcmove)
 
 function pcmove(event){
- if(event.key == "ArrowUp"{
+ if(event.key == "ArrowUp"){
     event.preventDefault()
    up()
   }
