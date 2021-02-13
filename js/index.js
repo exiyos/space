@@ -300,3 +300,21 @@ cont.style.display = "block"
       score.innerText = scoren
 }
 
+
+
+document.addEventListener("keydown",pcmove)
+
+function pcmove(event){
+ if(event.key == "ArrowUp"{
+    event.preventDefault()
+   up()
+  }
+if(event.key == "ArrowDown"{
+    event.preventDefault()
+   down()
+  }
+  if(event.key == " "{
+    event.preventDefault()
+   shoot()
+  }
+}
