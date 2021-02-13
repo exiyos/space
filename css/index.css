@@ -192,6 +192,9 @@ h11{
 
 .scoresave{
   width:100vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 
