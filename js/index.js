@@ -309,11 +309,11 @@ function pcmove(event){
     event.preventDefault()
    up()
   }
-if(event.key == "ArrowDown"{
+if(event.key == "ArrowDown"){
     event.preventDefault()
    down()
   }
-  if(event.key == " "{
+  if(event.key == " "){
     event.preventDefault()
    shoot()
   }
